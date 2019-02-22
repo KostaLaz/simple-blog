@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/galaxy.jpg)
+}
+h1, legend, form{
+	font-family: 'Dosis', sans-serif;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: #F9B339;
+}
+p, [for="abtype"] {
+	
+	margin: 2rem 0 0 0;
+}
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+fieldset{
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-bottom: 2rem;
+}
+legend{
+	font-weight: bold;
+	font-size: 1.3rem;
+	margin-top:1.5rem;
+	margin-bottom: 1rem;
+}
+label{
+	display: block;
+	margin: 0.3rem;
+}
+textarea{
+	height: 8rem;
+	padding: 1rem;
+}
+select{
+	font-size: 1rem;
+}
+button{
+	font-size: 1.5rem;
+	margin: 2rem 0;
+	border: none;
+	border-radius: 10px;
+	background-color: #310200;
+	color: white;
+}
+input:not([type="radio"]):not([type="checkbox"]), textarea, select{
+	display: block;
+	margin-bottom: 2rem;
+	width: 20rem;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	padding: 0 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
